@@ -1,6 +1,6 @@
 PANDOC=/usr/local/bin/pandoc
 
-slides:
+html:
 	$(PANDOC) -t revealjs \
 	--template=pandoc-templates/default.revealjs \
   	-o index.html \
@@ -12,3 +12,7 @@ pdf:
 	$(PANDOC) -s \
 	-o mapt-slides.pdf \
 	slides/*.md
+
+clean:
+	rm mapt-slides.pdf
+	rm index.html
