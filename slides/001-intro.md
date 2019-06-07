@@ -11,6 +11,7 @@ Zach Landis-Lewis
 Learning Health Sciences  
 University of Michigan  
 
+![](assets/michigan-medicine.png){ width=250px }
 
 <style>
     .reveal h1 {
@@ -20,6 +21,11 @@ University of Michigan
         font-size: 30px !important;
     }
     .reveal cite {
-        font-size: 15px !important;
+        font-size: 12px !important;
+    }
+    .reveal section img {
+        background:none;
+        border:none;
+        box-shadow:none;
     }
 </style>

@@ -6,7 +6,9 @@ html:
   	-o index.html \
 	--slide-level=1 \
   	-V reveal.js=./reveal.js \
-	-V theme=white slides/*.md
+	-V theme=white \
+	-V slideNumber=true \
+	slides/*.md
 
 pdf:
 	$(PANDOC) -s \
